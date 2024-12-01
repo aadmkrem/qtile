@@ -10,8 +10,8 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-TOKEN = '7505777501:AAETyrTSOKYBVJRHBsiW2xe1CHlaTWltToU'
-CHAT_ID = '-4281915164'
+TOKEN = ''
+CHAT_ID = ''
 bot = Bot(token=TOKEN)
 
 def is_device_connected(hostname):
@@ -21,7 +21,7 @@ def is_device_connected(hostname):
     except subprocess.CalledProcessError:
         return False
 
-device_hostname = 'M2006C3LG-Redmi9A.lan'
+device_hostname = ''
 last_status = False
 
 logging.info('Сервис запущен и начинает проверку устройства.')
